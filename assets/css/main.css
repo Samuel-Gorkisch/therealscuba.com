@@ -1,54 +1,69 @@
-body{
-  background:#232323;
+body {
+  background: #232323;
   color: white !important;
-  height:100%;
+  height: 100%;
 }
 
 .twitch {
-  width: 128px;
+  width: 75px;
 }
-.jumbotron
-{
-  height:55% !important;
-background-color:#690A0A;
-color:#1E1B1A !important;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-text-align:center;
+.jumbotron {
+  height: 55% !important;
+  background-color: #0a6969;
+  color: #1E1B1A !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.center{
+.center {
   margin: auto;
 }
-html{
-  height:100%;
+html {
+  height: 100%;
 }
-
-.icon-scuba{
-  width:170px;
+.icon-scuba {
+  width: 170px;
 }
-.MW{
-  width:128px;
+.MW {
+  width: 128px;
 }
-.rust{
-  width:128px;
-
+.rust {
+  width: 110px;
 }
-.game-circle{
+.tarkov {
+  width: 150px;
+}
+.valorant {
+  width: 100px;
+}
+.game-circle {
   box-shadow: 0px 4px 4px #000000;
-  border:black;
-  border-radius:50%;
-  width:175px;
-  height:175px;
-  display: inline-block;
+  border: black;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  display: flex;
+  align-items: center;
 }
-.rust-color{
-  background:#CD412B;
+.rust-color {
+  background: #CD412B;
 }
-.mw-color{
-  background:#735C22;
+.mw-color {
+  background: #735C22;
 }
-.tarkov-color{
-  background:#14386E;
+.tarkov-color {
+  background: #14386E;
 }
-.valorant-color{
-  background:#EB545B;
+.valorant-color {
+  background: #EB545B;
+}
+hr {
+  border-color: #5B5B5B;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.youtube {
+  width:100px;
 }
