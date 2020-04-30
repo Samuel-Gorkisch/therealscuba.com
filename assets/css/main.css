@@ -25,7 +25,7 @@ body {
         rgba(10,105,105,0.5)
       ),
     url('../img/website.gif');
-  background-size: cover;
+    background-size: 100% 150%;
 }
 .center {
   margin: auto;
