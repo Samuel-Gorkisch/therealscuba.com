@@ -3,19 +3,29 @@ body {
   color: white !important;
   height: 100%;
 }
-
 .twitch {
   width: 75px;
 }
+.twitch:hover {
+  filter: drop-shadow( 0px 0px 10px #8751F6);
+}
 .jumbotron {
-  height: 55% !important;
-  background-color: #0a6969;
+  height: 60% !important;
+  /* background-color: #0a6969; */
   color: #1E1B1A !important;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-radius: 0;
+  background:
+    linear-gradient(
+        rgba(10,105,105,0.5),
+        rgba(10,105,105,0.5)
+      ),
+    url('../img/website.gif');
+  background-size: cover;
 }
 .center {
   margin: auto;
@@ -24,7 +34,7 @@ html {
   height: 100%;
 }
 .icon-scuba {
-  width: 170px;
+  width: 256px;
 }
 .MW {
   width: 128px;
@@ -42,28 +52,58 @@ html {
   box-shadow: 0px 4px 4px #000000;
   border: black;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 10rem;
+  height: 10rem;
   display: flex;
   align-items: center;
+  transition: transform .2s;
+}
+.game-circle:hover {
+  box-shadow: 0px 0px 10px #000000;
+  transform: scale(1.15);
 }
 .rust-color {
   background: #CD412B;
 }
+.rust-color:hover {
+  box-shadow: 0px 0px 10px #CD412B !important;
+}
 .mw-color {
   background: #735C22;
+}
+.mw-color:hover {
+  box-shadow: 0px 0px 10px #735C22 !important;
 }
 .tarkov-color {
   background: #14386E;
 }
+.tarkov-color:hover {
+  box-shadow: 0px 0px 10px #14386E !important;
+}
 .valorant-color {
   background: #EB545B;
 }
+.valorant-color:hover {
+  box-shadow: 0px 0px 10px #EB545B !important;
+}
 hr {
-  border-color: #5B5B5B;
   margin-right: 5%;
   margin-left: 5%;
+  border: 1px solid #5B5B5B;
 }
 .youtube {
   width:100px;
+
+}
+.youtube:hover {
+  filter: drop-shadow( 0px 0px 10px #FF0000);
+
+}
+h2 {
+  color: #DCDCDC;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.games .container {
+  max-width: 800px;
 }
