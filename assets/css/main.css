@@ -93,7 +93,6 @@ hr {
 }
 .youtube {
   width:100px;
-
 }
 .youtube:hover {
   filter: drop-shadow( 0px 0px 10px #FF0000);
@@ -113,3 +112,28 @@ h2 {
     background-color: #0a6969;
   }
 }
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* .content a {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.content span {
+  display: inline-block;
+}
+.content a.a-twitch {
+   float:right;
+   clear:right;
+} */
